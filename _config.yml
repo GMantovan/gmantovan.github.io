@@ -106,8 +106,8 @@ analytics:
 author:
   name             : "Giacomo Mantovan"
   avatar           : "/assets/images/IMG_6674.JPG" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
+  bio              : "PhD student of Astronomy."
+  location         : "Italy (PD), Scotland (St. Andrews)"
   email            :
   links:
     - label: "Email"
