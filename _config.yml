@@ -108,7 +108,7 @@ author:
   avatar           : "/assets/images/IMG_6674.JPG" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "PhD student of Astronomy."
   location         : "Italy (PD), Scotland (St. Andrews)"
-  email            :
+  email            : 
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
