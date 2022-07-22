@@ -1,0 +1,12 @@
+---
+permalink: /publications/
+title: "Publications"
+toc: true
+---
+
+<h2>Peer-reviewed publications</h2>
+
+
+{% include icon="fab fa-fw fa-orcid" %}
+
+
