@@ -2,6 +2,10 @@
 permalink: /publications/
 title: "Publications"
 #toc: true
+header:
+  image: /assets/images/stivo.jpeg
+  image_description: "Monte Stivo (Italy)"
+  caption: "Photo credit: Giacomo Mantovan, Iphone SE"
 ---
 
 <h2>Peer-reviewed publications</h2>
