@@ -144,29 +144,7 @@
   }
 }
 
-.author__avatar2 {
-  display: table-cell;
-  vertical-align: top;
-  width: 35px;
-  height: 35px;
 
-  @include breakpoint($large) {
-    display: block;
-    width: auto;
-    height: auto;
-  }
-
-  img {
-    max-width: 90%;
-    min-width: 100px;
-    height:auto;
-
-    @include breakpoint($large) {
-      padding: 4px;
-      border: 1px solid gray;
-    }
-  }
-}
 
 .author__content {
   display: table-cell;
