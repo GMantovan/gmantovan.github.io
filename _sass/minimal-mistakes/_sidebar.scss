@@ -134,7 +134,9 @@
   }
 
   img {
-    max-width: 160px;
+    width:100%;
+    height:auto;
+    #max-width: 160px;
     border-radius: 50%;
 
     @include breakpoint($large) {
@@ -147,16 +149,19 @@
 .author__avatar2 {
   display: table-cell;
   vertical-align: top;
+  /*width:100%;
+  height:auto; */
   width: 35px;
   height: 35px;
 
   @include breakpoint($large) {
-    display: block;
+    #display: block;
     width: auto;
     height: auto;
   }
 
   img {
+    /*  width:100%;*/
     max-width: 90%;
     min-width: 100px;
     height:auto;
