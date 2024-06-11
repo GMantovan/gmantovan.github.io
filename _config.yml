@@ -106,13 +106,13 @@ analytics:
 author:
   name             : "Giacomo Mantovan"
   avatar           : "/assets/images/IMG_6674.JPG" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "PhD student of Astronomy."
-  location         : "Italy (PD), Scotland (St. Andrews)"
+  bio              : "Postdoctoral Researcher of Astronomy"
+  location         : "Italy, Padova"
   email            : 
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:giacomo.mantovan@phd.unipd.it"
+      url: "mailto:giacomo.mantovan@unipd.it"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
