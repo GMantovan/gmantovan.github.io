@@ -511,6 +511,24 @@
   border-radius: $border-radius;
   -webkit-box-shadow: $box-shadow;
   box-shadow: $box-shadow;
+  /*
+  position: absolute; /* Fixes the TOC in place 
+  right: 0; /* Positions the TOC on the right 
+  top: 0; /* Adjusts the vertical position of the TOC 
+  max-width: 300px; /* Sets a maximum width for the TOC 
+  padding: 10px;
+  z-index: 10; /* Ensures the TOC is above other elements  
+  */
+  
+  position: absolute; /* Fissa il TOC nella posizione desiderata */
+  top: calc(100vh + 0); /* Regola in base all'altezza dell'header */
+  right: 20px; /* Distanza dal margine destro della pagina */
+  z-index: 1000; /* Assicura che il TOC sia sopra gli altri elementi */
+  max-height: calc(100vh - 120px); /* Limita l'altezza del TOC in modo da non superare l'altezza della finestra del browser */
+  overflow-y: auto; /* Aggiungi una barra di scorrimento verticale se il contenuto del TOC è più lungo della sua altezza massima */
+  padding: 10px; /* Aggiungi spazio interno al TOC */
+  max-width: calc(100% - 40px); /* Imposta la larghezza del TOC */
+  margin: 0 auto;
 
   .nav__title {
     color: #fff;
@@ -570,4 +588,16 @@
   li ul li ul li ul li ul li ul > li a {
     padding-left: 3.25rem
   }
+}
+
+/* Regola la larghezza massima del TOC in base alla larghezza della finestra */
+@media screen and (max-width: 960px) {
+  .toc {
+    max-width: calc(100% - 20px);
+  }
+}
+
+/* Assicura che il contenuto principale non vada sotto il TOC */
+.post-content {
+  margin-right: 240px; /* Imposta un margine destro per il contenuto principale per evitare che vada sotto il TOC */
 }
