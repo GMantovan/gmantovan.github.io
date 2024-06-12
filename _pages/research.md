@@ -29,8 +29,15 @@ My research interests span several topics in the field of extrasolar planets, bu
 
 ## Young planets
 
+<figure style="float: left; margin-right: 20px; max-width: 30%; margin-top: 5px; ">
+  <a href="/assets/images/young_planet.jpeg" class="image-popup" title="This is a figure caption.">
+    <img src="/assets/images/young_planet.jpeg" alt="this is a placeholder image" style="width: 100%; height: auto;">
+  </a>
+  <figcaption>This is a figure caption.</figcaption>
+</figure>
+
 <div class="post-content">
-<p>ssssssssssssssssssssssss ssssssssssssssssssss ssssssssssssssssssssssssssssss ssssssssssssssssssssssssssssssss sssssssssssssssssssssssssssssss sssssssssssssss sssssssssssssssssssssss ssssssssssssssssssssssssssss sssssssssssssssssssssssssssssssss sssssssssssssssssssssssssssssssssss ssssssssssssss sssssssssssssssssssssss ssssssssssssssssssssssssssssssssss sssssssssssssssssssssssssss</p></div>
+<p>The mass of an exoplanet, combined with the radius from transit, allows us to precisely measure an exoplanet's inner bulk density and opens the door for subsequent in-depth characterisation. </p><p>An interesting subject of study are <strong>systems younger than 1 Gyr</strong>, which are crucial for understanding the early stages of planetary formation and evolution processes, including orbital migration, atmopsheric evaporation, and planetary impacts. However, it is challenging to identify and model such systems because of the strong magnetic <strong>activity</strong> of the host star that hides planetary signals. The substantial starspot activity on the stellar surface - typical of stars younger than 1 Gyr - generates intense periodic variations in the stellar flux and shape of the spectral lines, affecting both photometric and spectroscopic time series. Therefore, it is essential to mitigate stellar eﬀects, solve the degeneracy, and isolate the planetary signal. </p><p> Among the different approaches and techniques in this rapidly evolving ﬁeld, the <strong>Gaussian Process</strong> (GP) regression can be used as a flexible model for correlated noise typically caused by the variability of the host star. Of particular importance in the context of young stars is the availability of additional indicators, obtained during RV extraction, that give information on the characteristics of spectral lines (e.g., width, asymmetry), which are also aﬀected by active regions, as well as spectral activity indicators which trace chromospheric emission in the cores of strong lines. In my work, I adopted the <strong>multidimensional GP framework</strong> proposed by Rajpaul et al. (2015), a powerful approach for modelling activity indicators simultaneously with RVs, disentangling them from planetary signals. The advent of space transit surveys has revolutionised the study of young planets, making it easier to discover exoplanets around young stars by ﬁrst identifying transiting signals. However, only a small sample of young exoplanets have well-constrained ages, radii, and masses.</p></div>
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
