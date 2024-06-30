@@ -10,4 +10,12 @@ header:
   caption: "Photo credit: Giacomo Mantovan, Iphone SE"
 ---
 
+Last update: May 1, 2024
+
+<div style="margin-bottom: 20px;">
 <embed src="https://gmantovan.github.io/assets/images/CV_Mantovan.pdf" type="application/pdf" />
+</div>
+
+<p>
+You can download a PDF copy of my CV <a href="https://gmantovan.github.io/assets/images/CV_Mantovan.pdf">here</a>
+</p>
