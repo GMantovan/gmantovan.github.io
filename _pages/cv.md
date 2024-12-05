@@ -10,7 +10,7 @@ header:
   caption: "Photo credit: Giacomo Mantovan, Iphone SE"
 ---
 
-Last update: May 1, 2024
+Last update: Dec 5, 2024
 
 <div style="margin-bottom: 20px;">
 <embed src="https://gmantovan.github.io/assets/images/CV_Mantovan.pdf" type="application/pdf" />
